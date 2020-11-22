@@ -7,11 +7,7 @@ jobs:
   newman:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/checkout@master
+      - uses: matt-ball/newman-action@master
         with:
-          node-version: '12'
-          collectionFile: collection-newman.js
-          environmentFile: production.postman_environment.json
-      - run: npm install -g newman
-      - run: newman run {{ collectionFile }} --environment {{ environmentFile }}
+          collection: collection-for-github.json
