@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Passing Postman collection" tests="4" time="0.989">
+  <testsuite name="GET with URL Params" id="2e9ca041-821b-42b4-9eb2-0fa76ff6e0f5" timestamp="2020-11-22T17:08:17.118Z" tests="2" failures="0" errors="0" time="0.532">
+    <testcase name="Status code is 200" time="0.532" classname="PassingPostmanCollection"/>
+    <testcase name="Response contains params" time="0.532" classname="PassingPostmanCollection"/>
+  </testsuite>
+  <testsuite name="POST with JSON body" id="fed1fba6-d912-4342-9610-4bffee02ed80" timestamp="2020-11-22T17:08:17.118Z" tests="2" failures="0" errors="0" time="0.235">
+    <testcase name="Status code is 200" time="0.235" classname="PassingPostmanCollection"/>
+    <testcase name="Check POST param in response" time="0.235" classname="PassingPostmanCollection"/>
+  </testsuite>
+  <testsuite name="DELETE request" id="040f115a-9962-4805-b519-1bf86069cb07" timestamp="2020-11-22T17:08:17.118Z" tests="1" failures="0" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112" classname="PassingPostmanCollection"/>
+  </testsuite>
+  <testsuite name="PUT with form data" id="fb80937f-5b73-4cf7-90f0-2e6c9a433d1f" timestamp="2020-11-22T17:08:17.118Z" tests="2" failures="0" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110" classname="PassingPostmanCollection"/>
+    <testcase name="Test form data" time="0.110" classname="PassingPostmanCollection"/>
+  </testsuite>
+</testsuites>
